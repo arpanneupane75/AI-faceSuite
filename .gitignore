@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+.tox/
+build/
+dist/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
+Thumbs.db
+
+# Output and temporary files
+outputs/
+unknown_faces/
+known_faces/
+filters/
+models/
+*.log
+*.sqlite3
+
+# Specific models (optional, if you intend to manage them with Git LFS or don't want them tracked)
+# The current README instructs users to download these, so they are not ignored by default here.
+# If your model files are very large and you explicitly don't want them in the repo:
+# models/age_net.caffemodel
+# models/gender_net.caffemodel
+# models/res10_300x300_ssd_iter_140000.caffemodel
+# models/fer2013_mini_XCEPTION.102-0.66.hdf5
+# models/shape_predictor_68_face_landmarks.dat
