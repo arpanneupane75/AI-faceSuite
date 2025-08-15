@@ -42,8 +42,11 @@ This project is a comprehensive real-time face analysis application built using 
 │   └── another_person.png
 ├── outputs/
 ├── unknown_faces/
-├── main.py  (or whatever you named the script)
+├── main.py  
 └── README.md
+└── requirements.txt
+
+
 ```
 ---
 
@@ -61,8 +64,8 @@ This project is a comprehensive real-time face analysis application built using 
 ## Installation
 1. Clone the repository:
 ```bash
-git clone <repository_url>
-cd Ultimate-Face-AI-Suite
+git clone <https://github.com/arpanneupane75/AI-faceSuite.git>
+cd Ultimate-Face-AI-Suit
 ```
 2. create the necessary directories
 ```bash 
